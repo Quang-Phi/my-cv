@@ -673,20 +673,20 @@ h6 {
     }
     #content {
       .prev {
-        left: 5% !important;
-        top: 46% !important;
+        left: 4% !important;
+        top: 50% !important;
         bottom: unset !important;
       }
       z-index: 1;
       .slick-slider {
         .slick-arrow {
-          bottom: 50% !important;
+          top: 50% !important;
         }
         .slick-next {
-          left: 82% !important;
+          left: 87% !important;
         }
         .slick-prev {
-          left: 2% !important;
+          left: 1% !important;
         }
         .slick-slide {
           height: 100vh;
@@ -733,8 +733,8 @@ h6 {
   #page-wrapper {
     #content {
       .prev {
-        left: 6% !important;
-        top: 47% !important;
+        left: 5% !important;
+        top: 50% !important;
       }
     }
   }
