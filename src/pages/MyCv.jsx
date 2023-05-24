@@ -73,7 +73,6 @@ export const MyCv = () => {
             <MyPortfolio />
             <Project1 />
             <Project2 />
-            <Project3 />
           </Slick>
         </section>
       </div>
