@@ -683,7 +683,7 @@ h6 {
           top: 50% !important;
         }
         .slick-next {
-          left: 87% !important;
+          left: 85% !important;
         }
         .slick-prev {
           left: 1% !important;
@@ -701,6 +701,7 @@ h6 {
                 .resume-col {
                   width: 100% !important;
                   margin-bottom: 30px;
+                  padding: 0 20px;
                 }
               }
             }
@@ -714,6 +715,7 @@ h6 {
               .post {
                 margin-bottom: 30px;
                 width: 100% !important;
+                padding: 0 20px !important;
                 .post-content {
                   .post-imgs {
                     .img {
@@ -731,6 +733,17 @@ h6 {
 }
 @media screen and (max-width: 499px) {
   #page-wrapper {
+    #home {
+      .home-wrapper {
+        .nav-text {
+          .main {
+            .my-avatar {
+              display: none;
+            }
+          }
+        }
+      }
+    }
     #content {
       .prev {
         left: 5% !important;
