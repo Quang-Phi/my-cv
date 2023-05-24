@@ -624,6 +624,7 @@ h6 {
           margin-left: 0;
           top: 85%;
           left: 50%;
+          transform: translateX(-50%);
         }
         #main-nav {
           background: #e5e5e5;
@@ -683,7 +684,7 @@ h6 {
           top: 50% !important;
         }
         .slick-next {
-          left: 85% !important;
+          left: 84% !important;
         }
         .slick-prev {
           left: 1% !important;
