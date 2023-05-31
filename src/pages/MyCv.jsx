@@ -5,6 +5,7 @@ import $ from "jquery";
 import { Project1 } from "../components/Project1";
 import { Project2 } from "../components/Project2";
 import { Project3 } from "../components/Project3";
+import { Project3_2 } from "../components/Project3_2";
 
 export const MyCv = () => {
   const [wrapper, setWrapper] = useState(true);
@@ -39,10 +40,10 @@ export const MyCv = () => {
                     <img src="./img/avt.jpg" className="img-circle" alt="" />
                   </div>
                   <div className="my-name">
-                  <h2>
-                    ĐINH QUANG <strong>PHI</strong>
-                  </h2>
-                  <h5>02/09/1997</h5>
+                    <h2>
+                      ĐINH QUANG <strong>PHI</strong>
+                    </h2>
+                    <h5>02/09/1997</h5>
                   </div>
                 </div>
                 <div className="info">
@@ -71,6 +72,8 @@ export const MyCv = () => {
             }}
           >
             <MyPortfolio />
+            <Project3 />
+            <Project3_2 />
             <Project1 />
             <Project2 />
           </Slick>

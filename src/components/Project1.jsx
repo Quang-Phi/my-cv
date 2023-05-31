@@ -25,7 +25,7 @@ export const Project1 = () => {
                     functionalities: login, search, shopping cart, product
                     categories, product filtering, product details,
                     add-remove-edit cart items. Some technologies used include:{" "}
-                    <br /> -HTML5 <br /> -CSS3 / SASS <br /> 
+                    <br /> - HTML5 <br /> - CSS3 / SASS <br /> 
                     - ReactJs / Redux Toolkit <br /> - Ant Design <br /> -
                     React-Slick <br />
                     - React-Pagination,... <br /> & retrieving data from APIs.

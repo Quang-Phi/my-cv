@@ -1,4 +1,4 @@
-export const Project3 = () => {
+export const Project3_2 = () => {
   return (
     <>
       <section id="project">
@@ -6,11 +6,11 @@ export const Project3 = () => {
           <div class="row">
             <div class="post ">
               <div class="post-image">
-                <img src="./img/pr3-1.png" alt="" />
+                <img src="./img/pr3-1-1.png" alt="" />
               </div>
               <div class="post-content">
                 <div class="post-category">
-                  <span>online music website / Laravel + MySQL</span>
+                  <span>online music website admin/ Laravel + MySQL</span>
                 </div>
                 <div class="post-title">
                   <h5>
@@ -21,17 +21,12 @@ export const Project3 = () => {
                 </div>
                 <div class="post-text">
                   <p>
-                    The online music streaming website includes basic
-                    functionalities such as: registration, login, password
-                    recovery, music player, search, music categorization, member
-                    registration to create playlists, block ads, download music,
-                    and more.. Some technologies used include: <br />{" "}
-                    <strong>+ BackEnd</strong> <br /> - PHP / Laravel <br />{" "}
-                    &nbsp;&nbsp;&nbsp;&nbsp;+ reCaptcha <br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;+ Social Lite <br />{" "}
-                    &nbsp;&nbsp;&nbsp;&nbsp;+ PayPal <br />{" "}
-                    &nbsp;&nbsp;&nbsp;&nbsp;+ AmlitudeJS <br />{" "}
-                    &nbsp;&nbsp;&nbsp;&nbsp;+ ....
+                    The admin page of the music streaming website includes basic
+                    functionalities such as: CRUD (Create, Read, Update, Delete)
+                    data, role-based access control between the main admin and
+                    other admins, data management and statistics. and more..
+                    Some technologies used include: <br />{" "}
+                    <strong>+ BackEnd</strong> <br /> - PHP / Laravel 
                     <br />- MySQL <br /> - JavaScript / jQuery <br /> -
                     Bootstrap 5<br />
                     <br />
@@ -54,46 +49,46 @@ export const Project3 = () => {
                     <img src="./img/pr3-2.png" alt="" />
                   </div>
                   <div className="img">
-                    <a href="./img/pr3-3.png" className="zoom">
+                    <a href="./img/pr3-1-1-2.png" className="zoom">
                       <i class="ri-fullscreen-line"></i>
                     </a>
-                    <img src="./img/pr3-3.png" alt="" />
+                    <img src="./img/pr3-1-2.png" alt="" />
                   </div>
                   <div className="img">
-                    <a href="./img/pr3-4.png" className="zoom">
+                    <a href="./img/pr3-1-3.png" className="zoom">
                       <i class="ri-fullscreen-line"></i>
                     </a>
-                    <img src="./img/pr3-4.png" alt="" />
+                    <img src="./img/pr3-1-3.png" alt="" />
                   </div>
                   <div className="img">
-                    <a href="./img/pr3-5.png" className="zoom">
+                    <a href="./img/pr3-1-4.png" className="zoom">
                       <i class="ri-fullscreen-line"></i>
                     </a>
-                    <img src="./img/pr3-5.png" alt="" />
+                    <img src="./img/pr3-1-4.png" alt="" />
                   </div>
                   <div className="img">
-                    <a href="./img/pr3-6.png" className="zoom">
+                    <a href="./img/pr3-1-5.png" className="zoom">
                       <i class="ri-fullscreen-line"></i>
                     </a>
-                    <img src="./img/pr3-6.png" alt="" />
+                    <img src="./img/pr3-1-5.png" alt="" />
                   </div>
                   <div className="img">
-                    <a href="./img/pr3-7.png" className="zoom">
+                    <a href="./img/pr3-1-6.png" className="zoom">
                       <i class="ri-fullscreen-line"></i>
                     </a>
-                    <img src="./img/pr3-7.png" alt="" />
+                    <img src="./img/pr3-1-6.png" alt="" />
                   </div>
                   <div className="img">
-                    <a href="./img/pr3-8.png" className="zoom">
+                    <a href="./img/pr3-1-7.png" className="zoom">
                       <i class="ri-fullscreen-line"></i>
                     </a>
-                    <img src="./img/pr3-8.png" alt="" />
+                    <img src="./img/pr3-1-7.png" alt="" />
                   </div>
                   <div className="img">
-                    <a href="./img/pr3-9.png" className="zoom">
+                    <a href="./img/pr3-1-8.png" className="zoom">
                       <i class="ri-fullscreen-line"></i>
                     </a>
-                    <img src="./img/pr3-9.png" alt="" />
+                    <img src="./img/pr3-1-8.png" alt="" />
                   </div>
                 </div>
               </div>
