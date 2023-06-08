@@ -369,6 +369,8 @@ h6 {
         }
       }
       .slick-slide {
+        height: 100vh;
+        overflow-y: auto;
         #resume {
           .section-wrapper {
             .resume-grid {

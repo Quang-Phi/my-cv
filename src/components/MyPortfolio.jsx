@@ -17,16 +17,16 @@ export const MyPortfolio = () => {
                   <p className="lead">
                     I am Quang Phi, 26 years old, and I am very interested in
                     the opportunity to apply for the{" "}
-                    <strong>Fresher (ReactJS)</strong> or{" "}
-                    <strong>FullStack (ReactJS + PHP)</strong> position at your
+                    <strong>Fresher FullStack (ReactJS + Laravel)</strong> or{" "}
+                    <strong>Fresher FrontEnd (ReactJS)</strong> position at your
                     company.
                   </p>
                   <br />
                   <p>
                     I have good communication skills and a strong passion for
-                    fast learning, and adapt to new technologies.
-                    My strengths lie in developing web applications, with solid
-                    knowledge of <strong>HTML, CSS, JavaScript,</strong> and{" "}
+                    fast learning, and adapt to new technologies. My strengths
+                    lie in developing web applications, with solid knowledge of{" "}
+                    <strong>HTML, CSS, JavaScript,</strong> and{" "}
                     <strong>ReactJS</strong>. I have proficient skills in
                     JavaScript, including <strong>DOM</strong> manipulation and{" "}
                     <strong>JavaScript object model</strong>. Furthermore, I
@@ -38,15 +38,20 @@ export const MyPortfolio = () => {
                   </p>
                   <br />
                   <p>
-                    I have a creative mindset and work well in a team
-                    environment.
+                    I have the ability to create and deploy web
+                    applications using <strong>Laravel</strong>. I am proficient in building
+                    <strong> routes</strong>, <strong>controllers</strong>, and <strong>views</strong>, as well as managing
+                    databases and performing CRUD tasks. I have mastered the
+                    features of Laravel, including the <strong>routing system</strong>,
+                    <strong>middleware</strong>, <strong>Eloquent ORM</strong>, <strong>Blade templating engine</strong>, and other
+                    supporting tools. With these skills, I can efficiently
+                    develop web applications that are easy to maintain.
                   </p>{" "}
                   <br />
                   <p>
                     <strong>
-                      Thank you for considering my application. I look forward
-                      to the opportunity to discuss further and showcase my
-                      skills in an interview
+                      I look forward to the opportunity to discuss further and
+                      showcase my skills in an interview.Thank you!
                     </strong>
                     .
                   </p>
@@ -60,8 +65,9 @@ export const MyPortfolio = () => {
                   <strong>Skills</strong> &amp; Abilities
                 </h4>
                 <div className="box-content">
+                  <p><strong>FrontEnd: </strong></p>
                   <p>
-                    <i className="ri-check-double-fill"></i> HTML/CSS (SASS,
+                    <i className="ri-check-double-fill"></i> HTML5/CSS (SASS,
                     Responsive).
                   </p>
                   <p>
@@ -92,6 +98,8 @@ export const MyPortfolio = () => {
                   <p>
                     <i className="ri-check-double-fill"></i>DOM
                   </p>
+                  <br />
+                  <p><strong>BackEnd: </strong></p>
                   <p>
                     <i className="ri-check-double-fill"></i>PHP
                   </p>
@@ -173,19 +181,19 @@ export const MyPortfolio = () => {
                 </h4>
                 <div className="box-content container">
                   <div className="row">
-                    <div className="  icon-box" style={{width:"33.33%"}}>
+                    <div className="  icon-box" style={{ width: "33.33%" }}>
                       <span className="icon">
                         <i className="ri-terminal-window-line"></i>
                       </span>
                       <h6 className="font-alt">Coding</h6>
                     </div>
-                    <div className=" icon-box" style={{width:"33.33%"}}>
+                    <div className=" icon-box" style={{ width: "33.33%" }}>
                       <span className="icon ">
                         <i className="ri-ancient-gate-line"></i>
                       </span>
                       <h6 className="font-alt">Travelling</h6>
                     </div>
-                    <div className="  icon-box" style={{width:"33.33%"}}>
+                    <div className="  icon-box" style={{ width: "33.33%" }}>
                       <span className="icon">
                         <i className="ri-cup-line"></i>
                       </span>
