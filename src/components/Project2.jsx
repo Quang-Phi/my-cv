@@ -10,7 +10,7 @@ export const Project2 = () => {
               </div>
               <div class="post-content">
                 <div class="post-category">
-                  <span>Web sale Jewelry / ReactJs</span>
+                  <span>Web sale drawings design / ReactJs</span>
                 </div>
                 <div class="post-title">
                   <h5>
