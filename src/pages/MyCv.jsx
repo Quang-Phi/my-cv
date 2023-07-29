@@ -45,6 +45,7 @@ export const MyCv = () => {
         "./img/2-9.png",
       ],
       title: "online music website / Laravel + MySQL",
+      git:'https://github.com/Quang-Phi/QPMusic.git/',
       link: "https://qpmusic.online/",
       desc: "The online music streaming website includes basic functionalities such as: registration, login, password recovery, music player, search, music categorization, member registration to create playlists, block ads, download music, and more..",
       sub_desc: [
