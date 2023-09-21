@@ -106,30 +106,30 @@ export const MyCv = () => {
         "+ React-Pagination",
       ],
     },
-    {
-      imgs: [
-        "./img/5-1.jpg",
-        "./img/5-2.jpg",
-        "./img/5-3.jpg",
-        "./img/5-4.png",
-        "./img/5-5.png",
-        "./img/5-6.png",
-        "./img/5-7.png",
-        "./img/5-8.png",
-        "./img/5-9.png",
-      ],
-      title: "Web sale drawings design / ReactJs",
-      git: 'https://github.com/Quang-Phi/architect.git',
-      link: "https://architect-snowy.vercel.app/",
-      desc: "The website provides construction design templates, consists of basic interfaces and functionalities: login, search , product categories, product filtering.",
-      sub_desc: [
-        "- HTML5 / CSS3 / SASS",
-        "- ReactJs / Redux Toolkit",
-        "- Ant Design",
-        "+ React-Slick",
-        "+ React-Pagination",
-      ],
-    },
+    // {
+    //   imgs: [
+    //     "./img/5-1.jpg",
+    //     "./img/5-2.jpg",
+    //     "./img/5-3.jpg",
+    //     "./img/5-4.png",
+    //     "./img/5-5.png",
+    //     "./img/5-6.png",
+    //     "./img/5-7.png",
+    //     "./img/5-8.png",
+    //     "./img/5-9.png",
+    //   ],
+    //   title: "Web sale drawings design / ReactJs",
+    //   git: 'https://github.com/Quang-Phi/architect.git',
+    //   link: "https://architect-snowy.vercel.app/",
+    //   desc: "The website provides construction design templates, consists of basic interfaces and functionalities: login, search , product categories, product filtering.",
+    //   sub_desc: [
+    //     "- HTML5 / CSS3 / SASS",
+    //     "- ReactJs / Redux Toolkit",
+    //     "- Ant Design",
+    //     "+ React-Slick",
+    //     "+ React-Pagination",
+    //   ],
+    // },
   ]
   const [slideImg, setSlideImg] = useState({
     show: 0,
@@ -198,7 +198,7 @@ export const MyCv = () => {
               slidesToScroll: 1,
             }}
           >
-            <MyPortfolio />
+            <MyPortfolio key={0} />
             {projects.map((project, index) => {
               return (
                 <>

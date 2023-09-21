@@ -17,8 +17,8 @@ export const MyPortfolio = () => {
                   <p className="lead">
                     I am Quang Phi, 26 years old, and I am very interested in
                     the opportunity to apply for the{" "}
-                    <strong>Fresher FullStack (ReactJS + Laravel)</strong> or{" "}
-                    <strong>Fresher FrontEnd (ReactJS)</strong> position at your
+                    <strong>Fresher FullStack (ReactJS + Laravel)</strong> or any similar position on {" "}
+                    <strong>ReactJS and Laravel</strong> position at your
                     company.
                   </p>
                   <br />
@@ -71,10 +71,13 @@ export const MyPortfolio = () => {
                     Responsive).
                   </p>
                   <p>
-                    <i className="ri-check-double-fill"></i> JavaScript (ES6+).
+                    <i className="ri-check-double-fill"></i> JavaScript (ES6+)/TypeScript.
                   </p>
                   <p>
                     <i className="ri-check-double-fill"></i> ReactJS.
+                  </p>
+                  <p>
+                    <i className="ri-check-double-fill"></i> NextJS.
                   </p>
                   <p>
                     <i className="ri-check-double-fill"></i> Redux.
@@ -91,9 +94,6 @@ export const MyPortfolio = () => {
                   <p>
                     <i className="ri-check-double-fill"></i> Source Code
                     Management.
-                  </p>
-                  <p>
-                    <i className="ri-check-double-fill"></i> NodeJS.
                   </p>
                   <p>
                     <i className="ri-check-double-fill"></i>DOM
@@ -162,7 +162,21 @@ export const MyPortfolio = () => {
                 <div className="box-content">
                   <div className="timeline">
                     <div className="timeline-event">
-                      <div className="event-date">07.2021 - 5.2023</div>
+                      {/* <div className="event-date">07.2021 - 05.2023</div> */}
+                      {/* <h4 className="event-name">
+                        learn<strong> FullStack </strong>
+                      </h4> */}
+                      <div className="event-description ">
+                      Graduated from vocational college in HCM City.
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="box-content">
+                  <div className="timeline">
+                    <div className="timeline-event">
+                      <div className="event-date">07.2021 - 05.2023</div>
                       <h4 className="event-name">
                         learn<strong> FullStack </strong>
                       </h4>
@@ -173,8 +187,21 @@ export const MyPortfolio = () => {
                     </div>
                   </div>
                 </div>
+                <div className="box-content">
+                  <div className="timeline">
+                    <div className="timeline-event">
+                      <div className="event-date">05.2023 - 08.2023</div>
+                      <h4 className="event-name">
+                      <strong>Front-End Developer</strong> | Allot Lines Co., Ltd
+                      </h4>
+                      <div className="event-description ">
+                      • Participate in building a stable and maintainable codebase using ReactJS
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-
+              
               <div className="resume-box">
                 <h4 className="title-bar">
                   <strong>Hobbies</strong> &amp; Interests
